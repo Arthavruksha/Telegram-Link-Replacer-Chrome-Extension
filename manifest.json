@@ -1,0 +1,13 @@
+{
+    "name": "Telegram Link Replacer",
+    "version": "1.0",
+    "description": "Replaces 't.me' with 'telegram.me' in URLs",
+    "manifest_version": 2,
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
